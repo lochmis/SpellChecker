@@ -1,0 +1,833 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Button1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 112</value>
+  </data>
+  <data name="Button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 128</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Button1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Button1.Text" xml:space="preserve">
+    <value>Load dictionary</value>
+  </data>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="Button1.ToolTip" xml:space="preserve">
+    <value>Click to load a dictionary file which you would like to use
+Dictionary file should be *.txt file</value>
+  </data>
+  <data name="&gt;&gt;Button1.Name" xml:space="preserve">
+    <value>Button1</value>
+  </data>
+  <data name="&gt;&gt;Button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button1.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="TextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 54</value>
+  </data>
+  <data name="TextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 20</value>
+  </data>
+  <data name="TextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TextBox1.ToolTip" xml:space="preserve">
+    <value>Please enter the word which you would like to check
+Only enter 1 word at the time and use only letters from a to z
+</value>
+  </data>
+  <data name="TextBox1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;TextBox1.Name" xml:space="preserve">
+    <value>TextBox1</value>
+  </data>
+  <data name="&gt;&gt;TextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TextBox1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="TextBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 164</value>
+  </data>
+  <data name="TextBox2.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TextBox2.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="TextBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 149</value>
+  </data>
+  <data name="TextBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="TextBox2.ToolTip" xml:space="preserve">
+    <value>Loaded dictionary
+The word which you enter will be checked by this dictionary
+</value>
+  </data>
+  <data name="TextBox2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;TextBox2.Name" xml:space="preserve">
+    <value>TextBox2</value>
+  </data>
+  <data name="&gt;&gt;TextBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TextBox2.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Button2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 93</value>
+  </data>
+  <data name="Button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 30</value>
+  </data>
+  <data name="Button2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Button2.Text" xml:space="preserve">
+    <value>Check the word</value>
+  </data>
+  <data name="Button2.ToolTip" xml:space="preserve">
+    <value>Click to find out if the word is spelled correctly</value>
+  </data>
+  <data name="Button2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Button2.Name" xml:space="preserve">
+    <value>Button2</value>
+  </data>
+  <data name="&gt;&gt;Button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Button3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 93</value>
+  </data>
+  <data name="Button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 30</value>
+  </data>
+  <data name="Button3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Button3.Text" xml:space="preserve">
+    <value>find similar words</value>
+  </data>
+  <data name="Button3.ToolTip" xml:space="preserve">
+    <value>Click to see 3 alternative words similar to one that you wrote</value>
+  </data>
+  <data name="Button3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Button3.Name" xml:space="preserve">
+    <value>Button3</value>
+  </data>
+  <data name="&gt;&gt;Button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button3.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="TextBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 164</value>
+  </data>
+  <data name="TextBox3.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TextBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 149</value>
+  </data>
+  <data name="TextBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="TextBox3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;TextBox3.Name" xml:space="preserve">
+    <value>TextBox3</value>
+  </data>
+  <data name="&gt;&gt;TextBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TextBox3.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="ProgressBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 352</value>
+  </data>
+  <data name="ProgressBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 33</value>
+  </data>
+  <data name="ProgressBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="ProgressBar1.ToolTip" xml:space="preserve">
+    <value>This bar shows progress of loading and sorting your chosen dictionary</value>
+  </data>
+  <data name="&gt;&gt;ProgressBar1.Name" xml:space="preserve">
+    <value>ProgressBar1</value>
+  </data>
+  <data name="&gt;&gt;ProgressBar1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProgressBar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProgressBar1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="TextBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 164</value>
+  </data>
+  <data name="TextBox4.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TextBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 149</value>
+  </data>
+  <data name="TextBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="TextBox4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;TextBox4.Name" xml:space="preserve">
+    <value>TextBox4</value>
+  </data>
+  <data name="&gt;&gt;TextBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBox4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TextBox4.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 361</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 16</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Dictionary Loaded and Sorted</value>
+  </data>
+  <data name="Label1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Button4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 128</value>
+  </data>
+  <data name="Button4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 30</value>
+  </data>
+  <data name="Button4.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="Button4.Text" xml:space="preserve">
+    <value>Show Dictionary</value>
+  </data>
+  <data name="Button4.ToolTip" xml:space="preserve">
+    <value>Click to see loaded and sorted dictionary</value>
+  </data>
+  <data name="Button4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Button4.Name" xml:space="preserve">
+    <value>Button4</value>
+  </data>
+  <data name="&gt;&gt;Button4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Button5.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Button5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 129</value>
+  </data>
+  <data name="Button5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 30</value>
+  </data>
+  <data name="Button5.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="Button5.Text" xml:space="preserve">
+    <value>Hide Dictionary</value>
+  </data>
+  <data name="Button5.ToolTip" xml:space="preserve">
+    <value>Click to hide the dictionary</value>
+  </data>
+  <data name="Button5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Button5.Name" xml:space="preserve">
+    <value>Button5</value>
+  </data>
+  <data name="&gt;&gt;Button5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 77</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>435, 15</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>It looks like you've made a typo, press the button below to see alternatives</value>
+  </data>
+  <data name="Label2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Button6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Button6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 32</value>
+  </data>
+  <data name="Button6.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="Button6.Text" xml:space="preserve">
+    <value>Restart Program</value>
+  </data>
+  <data name="Button6.ToolTip" xml:space="preserve">
+    <value>Click to STOP and RESTART whole program</value>
+  </data>
+  <data name="&gt;&gt;Button6.Name" xml:space="preserve">
+    <value>Button6</value>
+  </data>
+  <data name="&gt;&gt;Button6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button6.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 361</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 16</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Step 0 out of 0</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ButtonProgress.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="ButtonProgress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 317</value>
+  </data>
+  <data name="ButtonProgress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 30</value>
+  </data>
+  <data name="ButtonProgress.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="ButtonProgress.Text" xml:space="preserve">
+    <value>Hide Steps</value>
+  </data>
+  <data name="&gt;&gt;ButtonProgress.Name" xml:space="preserve">
+    <value>ButtonProgress</value>
+  </data>
+  <data name="&gt;&gt;ButtonProgress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonProgress.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonProgress.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ButtonNew.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="ButtonNew.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 12</value>
+  </data>
+  <data name="ButtonNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 30</value>
+  </data>
+  <data name="ButtonNew.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="ButtonNew.Text" xml:space="preserve">
+    <value>New Search</value>
+  </data>
+  <data name="ButtonNew.ToolTip" xml:space="preserve">
+    <value>Start new search without reloading dictionary</value>
+  </data>
+  <data name="ButtonNew.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ButtonNew.Name" xml:space="preserve">
+    <value>ButtonNew</value>
+  </data>
+  <data name="&gt;&gt;ButtonNew.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonNew.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonNew.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="ContextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>116, 17</value>
+  </metadata>
+  <data name="HelpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 22</value>
+  </data>
+  <data name="HelpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="AboutSpellCheckerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 22</value>
+  </data>
+  <data name="AboutSpellCheckerToolStripMenuItem.Text" xml:space="preserve">
+    <value>About Spell Checker</value>
+  </data>
+  <data name="GreyAndWhiteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="GreyAndWhiteToolStripMenuItem.Text" xml:space="preserve">
+    <value>Grey and white (default)</value>
+  </data>
+  <data name="BlueAndOrangeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="BlueAndOrangeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Blue and orange</value>
+  </data>
+  <data name="FancydictionaryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="FancydictionaryToolStripMenuItem.Text" xml:space="preserve">
+    <value>Fancy (dictionary)</value>
+  </data>
+  <data name="ChangeColourToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 22</value>
+  </data>
+  <data name="ChangeColourToolStripMenuItem.Text" xml:space="preserve">
+    <value>Change Colour</value>
+  </data>
+  <data name="ContextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 70</value>
+  </data>
+  <data name="&gt;&gt;ContextMenuStrip1.Name" xml:space="preserve">
+    <value>ContextMenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;ContextMenuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>51</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>442, 385</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAEBAAAAEACABoBQAAJgAAACAgAAABACAAqBAAAI4FAAAoAAAAEAAAACAAAAABAAgAAAAAAAAB
+        AAASCwAAEgsAAAABAAAAAQAAAAAAAAEAAAACAAAABAEBAAcCAgAQBAQAFQUFACAICAAmCgoAJwoKADIN
+        DQA0DQ0ANg0OADwPDwAAMmYAADNpAAAzagAANGoAADRrAAA1bgAANnAAADZyAEkSEgBKExMATBMTAE0T
+        EwBZFhYAWxcXAGIYGQBpGhoAahobAGsbGwBrHB4AcB0eAHUfIQBqQnoAbEN7AHNEfwB5RX8AfEN6AAA7
+        hwAAPIoAADyLAAA9iwAKQ40ACkSPAABBkAAAQZIAAEKUAABDlgAGQpIAAEOdAABDngAKRJAACUedABZH
+        nQAAR6kAAEutAABLrwAKSqAACkqhAApOrAAATLIAAE65AABPuQAAT7oAAE+7AABQvAAUTqEAFE6iAB1W
+        pgATUbwAGlC3ACFKpAAhTq4AIU+yAD1NpQA3ULAAAFPGAABTxwACU8YAAFTIAABUywAAVcsAAVXLAABV
+        zAAAVtAAAFfRAABZ2AAAWdkAAFraAANb3wAcVskAAFzhAABc4gAAXOMAAF3jAABe5gAAXucAFl/lABxf
+        5AAAYO4AAGHvAABj9gAAY/cAAGT3AABk+gAAZfoAAGb/AAJl/QADZfwAD2LwABlg5wAiXt0AQUmYAFZK
+        lgBBTKEARFW7AEtTtABRUKkAVlGqAGJGhgBwRYEAc0eGAHJIiwBzSYsAc0mNAIoiIwCEJzEAhigyAIwt
+        PQCNMkgAgzRQAIQ3WQCNNlMAjjZSAIw4WQCGRXoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEYoRURGRlA9PTUPFCgUKEYoLDUoFCxGWT09LCwTLA4oNSwVNXFx
+        cnBGRXJ1EkQOLBUOFT1zDYA1NXUiGHgsNUQsO281IwcYcVCJBRdwW1AsRj07Vn4HhEZNFgeEPDVXFFBZ
+        a0Z5B4BGiQWEXDZUVDs1RkZGeAcYIwoHJVBQNVosO1Zdb3sGBAQFGYRvbl1RPTtQXW96BiKEhQoHem5d
+        UDsoQ11veQUNXFyEBIRQUD83KDBWXXkGhHJyFgSAXV04LigPPlZ6BQkNDAQWc1Y7DiwoDxQ+eiKEGyKA
+        eVA+KA4sKA4OEShJSVxQUFApFBQOLDYoKCgoKDs7KDgoKCgoKDsAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAACAAAABAAAAAAQAgAAAA
+        AAAAEAAAEgsAABILAAAAAAAAAAAAADluvf8VUKr/FVKu/xVSrv8VUq7/FVKu/xVSrv8VUq7/FVKu/xVS
+        rv8VUq7/FVKu/xVSrv8VUq7/FVKu/xVSrv8VUq7/FVKu/xVSrv8VUq7/FVKu/xVSrv8VUq7/FVKu/xVS
+        rv8VUq7/FVKu/xVSrv8VUq7/FVKu/xVPp/9Mfcb/AEOn/wA6e/8ANGz/ADRs/wA0bP8ANGz/ADRs/wA0
+        bP8ANGz/ADRs/wA0bP8AOHb/AD+M/wBFnP8ASKb/AEut/wBLrf8ASKb/AESb/wA/iv8AOHb/ADRs/wA0
+        bP8ANGz/ADRs/wA0bP8ANGz/ADRs/wA0bP8ANGz/AD6G/xVPp/8ARKj/ADJm/wAyZv8AMmb/ADJm/wAy
+        Zv8AMmb/ADJm/wAyZv8APIL/AEim/wBPuv8AUL3/AFLC/wBSwv8AU8X/AFPF/wBSwv8AUsL/AFC9/wBP
+        uv8AR6H/ADt9/wAyZv8AMmb/ADJm/wAyZv8AMmb/ADJm/wAyZv8ANGz/FVKu/wBEqP8AMmb/ADJm/wAy
+        Zv8AMmb/ADJm/wAyZv8AOHb/AEim/wBPvP8AUsL/AFTJ/wBVzv8AVc7/AFfR/wBX0f8AV9H/AFfR/wBV
+        zv8AVc7/AFPF/wBSwv8AT7z/AEeh/wA3cv8AMmb/ADJm/wAyZv8AMmb/ADJm/wA0bP8VUq7/AESo/wAy
+        Zv8AMmb/ADJm/wAyZv8AMmb/AD6G/wBNtv8AUsL/AFTJ/wBX0f8AWNX/AFra/wBb3v8AW97/AFzh/wBc
+        4f8AW97/AFve/wBa2v8AWNX/AFXO/wBUyf8AUsL/AE22/wA8gv8AMmb/ADJm/wAyZv8AMmb/ADRs/xVS
+        rv8ARKj/ADJm/wAyZv8AMmb/ADJm/wBAjf8AT7r/AFPF/wBVzv9LSpj/gkFx/4JBcf+CQXH/WkuY/wBf
+        7P8AYO3/AGDt/wBf7P8AX+r/C1vc/29Fgv+DQG3/g0Bt/4M/av9VRYb/AE+6/wA/iv8AMmb/ADJm/wAy
+        Zv8ANGz/FVKu/wBEqP8AMmb/ADJm/wAyZv8APob/AE+6/wBTxf8AV9H/D1bN/8ozNf+PIyT/gyEh/4Yh
+        Iv/MMzP/JlrS/wBk9/8AZPf/AGP2/wBj9v9yR4f/tS0u/4MhIf+DISH/jSMj/8wzM/8fTq7/AE+6/wA8
+        gv8AMmb/ADJm/wA0bP8VUq7/AESo/wAyZv8AMmb/ADh2/wBNtv8AU8X/AFfR/wBa2v8ZWM7/zTM0/yEI
+        CP8AAAD/CQIC/8wzM/8xWs7/AGb+/wBm/v8AZv7/D2Ht/8I1Pv9PFBT/AAAA/wAAAP9dFxf/uzZB/whV
+        yf8AU8X/AE22/wA3cv8AMmb/ADRs/xVSrv8ARKj/ADJm/wAzaP8ASKb/AFLC/wBVzv8AWtr/AFzh/xla
+        1v/NMzT/IQgI/wAAAP8JAgL/zDMz/zFazv8AZv7/AGb+/wBm/v9lTZr/tS0u/wYBAf8AAAD/BgEB/7gu
+        Lv9jSI3/AFra/wBVzv8AUsL/AEeh/wAyZv8ANGz/FVKu/wBEqP8AMmb/ADyC/wBQvf8AVMn/AFjV/wBc
+        4f8AX+z/GVzc/80zNP8hCAj/AAAA/wkCAv/MMzP/MVrO/wBm/v8AZv7/CGT3/703Qv9bFxf/AAAA/wAA
+        AP9WFRX/wjU+/wxc3/8AXOH/AFjV/wBUyf8AT7z/ADt9/wA0bP8VUq7/AESo/wAyZv8ASKb/AFLC/wBX
+        0f8AW97/AF/q/wBh8f8ZXuH/zTM0/yEICP8AAAD/CQIC/8wzM/8xWs7/AGb+/wBm/v9ZUKb/vS8w/wkC
+        Av8AAAD/BgEB/7UtLv9qSpL/AGHx/wBe5v8AWtr/AFXO/wBSwv8AR6H/ADRs/xVSrv8ARKj/ADh2/wBP
+        uv8AVMn/AFjV/wBc4f8AYO3/AGP2/xlf5f/NMzT/IQgI/wAAAP8JAgL/zDMz/zFazv8AZv7/BWX6/7Y4
+        Sv9oGhr/AAAA/wAAAP9PFBT/wjU+/xFh7P8AY/b/AGDt/wBc4f8AWNX/AFPF/wBPuv8AOHb/FVKu/wBE
+        qP8AP4r/AFC9/wBVzv8AWtr/AF7m/wBh8f8AZPr/GWDm/80zNP8hCAj/AAAA/wkCAv/MMzP/MVrO/wBm
+        /v9NU7L/wjAx/xAEBP8AAAD/BgEB/64rLP9xSo7/AGb+/wBk+v8AYfH/AF7m/wBa2v8AVc7/AFC9/wA/
+        iv8VUq7/AESo/wBFnP8AUsL/AFfR/wBb3v8AX+r/AGP2/wBm/v8ZYOb/zTM0/yEICP8AAAD/CQIC/8wz
+        M/8xWs7/DGPz/7I5Tf9yHR3/AAAA/wAAAP9JEhL/xzQ5/xVh6v8AZv7/AGT6/wBj9v8AX+r/AFve/wBV
+        zv8AUsL/AESb/xVSrv8ARKj/AEmp/wBTxf8AV9H/AFzh/wBg7f8AY/b/AGb+/xlg5v/NMzT/IQgI/wAA
+        AP8JAgL/zDMz/5NBbf+yOU3/riss/wwDA/8AAAD/DAMD/7UtLv9xSo7/AGb+/wBm/v8AZv7/AGP2/wBf
+        7P8AW97/AFfR/wBSwv8ASKb/FVKu/wBEqP8AS63/AFPF/wBY1f8AXOH/AGDt/wBk9/8AZv7/GWDm/80z
+        NP8hCAj/AAAA/wYBAf+LIyP/hiEi/2YaGv8PBAT/AAAA/wYBAf+LIyP/sjlN/wtj9P8AZv7/AGb+/wBm
+        /v8AZPf/AGDt/wBc4f8AV9H/AFPF/wBLrf8VUq7/AESo/wBLrf8AU8X/AFjV/wBc4f8AYO3/AGT3/wBm
+        /v8ZYOb/zTM0/yEICP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/QBAQ/6srK//CNT7/RFW7/wBm
+        /v8AZv7/AGb+/wBk9/8AYO3/AFzh/wBX0f8AU8X/AEut/xVSrv8ARKj/AEmp/wBTxf8AV9H/AFzh/wBg
+        7f8AZPf/AGb+/xlg5v/NMzT/IQgI/wAAAP8AAAD/EAQE/xAEBP8MAwP/AAAA/wAAAP8AAAD/BgEB/2Ya
+        Gv/KMzX/O1fE/wBm/v8AZv7/AGP2/wBf7P8AW97/AFfR/wBSwv8ASKb/FVKu/wBEqP8ARZz/AFLC/wBX
+        0f8AW97/AF/q/wBj9v8AZv7/GWDm/80zNP8hCAj/AAAA/wkCAv/MMzP/zTM0/8wzM//CMDH/gyEh/xYF
+        Bf8AAAD/AAAA/3IdHf+2OEr/CGT3/wBk+v8AY/b/AF/q/wBb3v8AVc7/AFLC/wBFnP8VUq7/AESo/wBA
+        jf8AUL3/AFXO/wBa2v8AXub/AGHx/wBk+v8ZYOb/zTM0/yEICP8AAAD/CQIC/8wzM/9QUq//LlvS/0lU
+        t/+lPVr/sCws/wkCAv8AAAD/DAMD/8IwMf9EVbv/AGT6/wBh8f8AXub/AFra/wBVzv8AUL3/AD+M/xVS
+        rv8ARKj/ADh2/wBPuv8AVMn/AFjV/wBc4f8AYO3/AGT3/xlf5f/NMzT/IQgI/wAAAP8JAgL/zDMz/zFa
+        zv8AZv7/AGb+/wxj8//ANkD/SRIS/wAAAP8AAAD/kiQl/3RJiv8AY/b/AGDt/wBc4f8AWNX/AFTJ/wBP
+        uv8AOHb/FVKu/wBEqP8AMmb/AEmp/wBSwv8AV9H/AFve/wBf6v8AYfH/GV7h/80zNP8hCAj/AAAA/wkC
+        Av/MMzP/MVrO/wBm/v8AZv7/AGb+/6U9Wv9gGBj/AAAA/wAAAP98HyD/ikNz/wBh8f8AXub/AFve/wBX
+        0f8AUsL/AEim/wA0bP8VUq7/AESo/wAyZv8APob/AFC9/wBUyf8AWNX/AFzh/wBf7P8ZXNz/zTM0/yEI
+        CP8AAAD/CQIC/8wzM/8xWs7/AGb+/wBm/v8VYer/wjU+/0QREf8AAAD/AAAA/4YhIv+ARHn/AF/q/wBc
+        4f8AWNX/AFTJ/wBPvP8APIL/ADRs/xVSrv8ARKj/ADJm/wAzaP8ASan/AFLC/wBVzv8AWtr/AF7m/xla
+        1v/NMzT/IQgI/wAAAP8JAgL/zDMz/4hEeP90SYr/g0V9/703Qv+hKCn/BgEB/wAAAP8AAAD/sCws/1lM
+        mv8AXOH/AFra/wBVzv8AUsL/AEim/wAyZv8ANGz/FVKu/wBEqP8AMmb/ADJm/wA6e/8AT7r/AFPF/wBX
+        0f8AWtr/GVjO/80zNP8hCAj/AAAA/wYBAf+SJCX/kiQl/5IkJf+GISL/UxUV/wYBAf8AAAD/AAAA/z4Q
+        EP/KMzX/HFfK/wBa2v8AV9H/AFPF/wBNtv8AOHb/ADJm/wA0bP8VUq7/AESo/wAyZv8AMmb/ADJm/wBA
+        jf8AUL3/AFPF/wBX0f8ZVcX/zTM0/yEICP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8tCwv/vS8w/3REfv8AWtr/AFfR/wBTxf8AT7r/AD6G/wAyZv8AMmb/ADRs/xVSrv8ARKj/ADJm/wAy
+        Zv8AMmb/ADJm/wBCk/8AUL3/AFPF/xlRu//NMzT/IQgI/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/xAE
+        BP87Dw//gyEh/8oyM/+CQXH/BFfT/wBVzv8AU8X/AE+6/wBAjf8AMmb/ADJm/wAyZv8ANGz/FVKu/wBE
+        qP8AMmb/ADJm/wAyZv8AMmb/ADJm/wBAjf8AT7r/B1G9/701Pv/FMTL/xTEy/8UxMv/FMTL/xTEy/8Ux
+        Mv/FMTL/zDMz/8c0Of+VPWD/PU2k/wBX0f8AVMn/AFLC/wBNtv8APob/ADJm/wAyZv8AMmb/ADJm/wA0
+        bP8VUq7/AESo/wAyZv8AMmb/ADJm/wAyZv8AMmb/ADJm/wA6e/8ASan/F0yt/0FIlP9CSZn/QkmZ/0JL
+        nv9CS57/Qkue/z5Mov8qT7H/B1XL/wBVzv8AVMn/AFLC/wBQvf8ASKb/ADh2/wAyZv8AMmb/ADJm/wAy
+        Zv8AMmb/ADRs/xVSrv8ARKj/ADJm/wAyZv8AMmb/ADJm/wAyZv8AMmb/ADJm/wAzaP8APob/AEmp/wBP
+        uv8AUL3/AFLC/wBTxf8AU8X/AFPF/wBTxf8AUsL/AFC9/wBPuv8ASKb/ADyC/wAzaP8AMmb/ADJm/wAy
+        Zv8AMmb/ADJm/wAyZv8ANGz/FVKu/wBDp/8AN3L/ADJm/wAyZv8AMmb/ADJm/wAyZv8AMmb/ADJm/wAy
+        Zv8AMmb/ADh2/wA/jP8ARZz/AEmp/wBLrf8AS63/AEmp/wBFnP8AP4r/ADd0/wAyZv8AMmb/ADJm/wAy
+        Zv8AMmb/ADJm/wAyZv8AMmb/ADJm/wA6e/8VUKr/JV60/wBDp/8AQ6f/AEOn/wBDp/8AQ6f/AEOn/wBD
+        p/8AQ6f/AEOn/wBDp/8AQ6f/AEOn/wBDp/8AQ6f/AEOo/wBDqP8AQ6f/AEOn/wBDp/8AQ6f/AEOn/wBD
+        p/8AQ6f/AEOn/wBDp/8AQ6f/AEOn/wBDp/8AQ6f/AEOn/zluvf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Spell Checker                  Created by Radek Lochman</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HelpToolStripMenuItem.Name" xml:space="preserve">
+    <value>HelpToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;HelpToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AboutSpellCheckerToolStripMenuItem.Name" xml:space="preserve">
+    <value>AboutSpellCheckerToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;AboutSpellCheckerToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChangeColourToolStripMenuItem.Name" xml:space="preserve">
+    <value>ChangeColourToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ChangeColourToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GreyAndWhiteToolStripMenuItem.Name" xml:space="preserve">
+    <value>GreyAndWhiteToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;GreyAndWhiteToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlueAndOrangeToolStripMenuItem.Name" xml:space="preserve">
+    <value>BlueAndOrangeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;BlueAndOrangeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FancydictionaryToolStripMenuItem.Name" xml:space="preserve">
+    <value>FancydictionaryToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;FancydictionaryToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
